@@ -1,0 +1,65 @@
+.infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0948d1;
+    height: 100vh;
+}
+.infor_titile{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.infor_name{
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #e2dddd;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.infor_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px;
+}
+.btn-button{
+    margin: 12px;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 2px 2px rgb(99, 150, 226);;
+}
+.baocao1_name{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #e2dddd;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+.baocao1_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    min-width: 40%;
+    max-width: 80%;
+}
+.btn-active{
+    outline: none;
+    border: none;
+}
+.haha_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    min-width: 40%;
+    max-width: 90%;
+    position: relative;
+}

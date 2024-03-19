@@ -1,0 +1,48 @@
+
+.cauhinh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0948d1;
+    height: 100vh;
+}
+.cauhinh_titile{
+    display: flex;
+    justify-content: center;
+}
+.cauhinh_name{
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #e2dddd;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cauhinh_container{
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+    position: relative;
+}
+.save{
+    position: absolute;
+    padding: 8px 16px;
+    right: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #9eacd6;
+    color: rgb(238, 231, 231);
+    background-color: #0948d1;
+}
+.btn-cauhinh{
+    // background-color: #e2dddd;
+    padding: 8px 20px;
+    border: 1px solid #5c5a5a;
+    outline: none;
+    border-radius: 5px;
+    &:hover{
+        background-color: #c8d4ee;
+    }
+}
