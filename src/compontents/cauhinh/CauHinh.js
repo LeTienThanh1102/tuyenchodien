@@ -1,16 +1,8 @@
 
 import './Cauhinh.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import { useNavigate } from 'react-router-dom';
 function CauHinh() {
     const kaka=[
-        { id:1,
-            tu: 0,
-            den: 50,
-            gia: 1678
-
-        },
         { id:1,
             tu: 0,
             den: 50,
@@ -40,7 +32,6 @@ function CauHinh() {
 
         }
 ]
-  const navigate=useNavigate();
   return (
     <div className="cauhinh">
         <div className="cauhinh_titile">
@@ -77,7 +68,6 @@ function CauHinh() {
             ))}
           </tbody>
         </table>
-        <button className='save'> Nhắc nhở</button>
       </div>
     </div>
   );

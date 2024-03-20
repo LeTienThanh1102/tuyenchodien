@@ -16,8 +16,6 @@ function Ranking() {
           <Form.Select aria-label="Default select example">
             <option>Tỉnh/Thành phố</option>
             <option value="1">Hà Nội</option>
-            <option value="2">Hồ Chí Minh</option>
-            <option value="3">Đà Nẵng</option>
           </Form.Select>
           <Form.Select className='selection-item' aria-label="Default select example">
             <option>Quận/ Huyện</option>
@@ -32,7 +30,7 @@ function Ranking() {
             <option value="3">Hà Trì</option>
           </Form.Select>
           <Form.Select className='selection-item' aria-label="Default select example">
-            <option>Thôn/ Xóm/ Tổ</option>
+            <option>Đường/ Thôn</option>
             <option value="1">Mộ Lao</option>
             <option value="2">Tây Sơn</option>
             <option value="3">Kim Đồng</option>
@@ -45,37 +43,39 @@ function Ranking() {
               className="me-2"
               aria-label="Search"
             />
-             <Button variant="danger outline-success">Danger</Button>
+             <Button variant="danger outline-success">Search</Button>
           </Form>
       <div className="ranking_container">
         <table className="table table-hover table-bordered">
           <thead>
             <tr>
               <th scope="col">STT</th>
-              <th scope="col">Mã khách hàng</th>
               <th scope="col">Tên khách hàng</th>
               <th scope="col">Địa chỉ</th>
               <th scope="col">Số điện thoại</th>
               <th scope="col">Email</th>
               <th scope="col">Mã số thuế</th>
-              <th>Action</th>
+              <th><label>
+                  <input type="checkbox" className="check" id="checkAll" /> 
+                </label></th>
             </tr>
           </thead>
           <tbody>
             <tr >
               <td>1</td>
-              <td>GLT067696759</td>
               <td>Nguyễn Văn Tuyên</td>
               <td>282 Kim Giang, Thanh Xuân, Hà Nội</td>
               <td>0884859696</td>
               <td>tuyentopro@gmail.com</td>
               <td>03586967869697</td>
-              <td>
-                <button className="btn btn-warning" onClick={()=> {navigate('/send')}}>Gửi Mail</button>
+              <td><div className="form-check">
+                  <input className="form-check-input check" type="checkbox" value="" id="flexCheckDefault" />
+                </div>
               </td>
             </tr>
           </tbody>
         </table>
+        <button className="btn btn-warning send_mail" onClick={()=> {navigate('/send')}}>Gửi Mail</button>
       </div>
     </div>
   );

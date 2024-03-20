@@ -9,11 +9,13 @@ import List from "./compontents/list/List";
 import Infor from "./compontents/infor/Infor";
 import CauHinh from "./compontents/cauhinh/CauHinh";
 import Baocao1 from "./compontents/infor/baocao";
+import Login from "./compontents/login/Login";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/trangchu" element={<Layout />} />
         <Route path="/mail" element={<Ranking />} />
         <Route path="/list" element={<List />} />
         <Route path="/send" element={<Mail />} />

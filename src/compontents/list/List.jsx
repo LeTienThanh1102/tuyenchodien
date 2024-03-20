@@ -45,7 +45,7 @@ function List() {
               className="me-2"
               aria-label="Search"
             />
-             <Button variant="danger outline-success">Danger</Button>
+             <Button variant="danger outline-success">Search</Button>
              <Form.Select className='selection-item' aria-label="Default select example">
                     <option className='option-item'>Trạng thái</option>
                     <option value="2" className='option-item'>Chưa đóng tiền</option>

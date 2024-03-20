@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home">
       <div className="content">
-        <h1 className="header"> Welcome Tic Tac Toc </h1>
+        <h1 className="header"> Quản lí thanh toán tiền điện </h1>
       </div>
       <div className="home__container">
         <div className="page_caro">
